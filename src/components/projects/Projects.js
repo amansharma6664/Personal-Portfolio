@@ -9,6 +9,14 @@ import { HiArrowRight } from "react-icons/hi";
 import reactimg from "../../images/reactimg.png";
 import nodeimg from "../../images/nodeimg.png";
 import sqlimg from "../../images/sqlimg.png";
+import notenest from "../../images/notenest.png";
+import news from "../../images/news.png";
+import gamenova from "../../images/gamenova.png";
+import musicapp  from "../../images/musicapp.png";
+import mainapp from "../../images/mainapp.png";
+import ecommerce from "../../images/ecommerce.jpg";
+import quiz from "../../images/quiz.png";
+
 export default function Projects() {
   return (
     <div>
@@ -38,7 +46,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       NoteNest – MERN Stack Notes Management App
                     </h5>
-                    <img src={reactimg} alt={reactimg} />
+                    <img src={notenest} alt={notenest} />
                     <div className="project--showcaseBtn" >
                       <a
                         href="https://github.com/amansharma6664/NoteNest_Frontend"
@@ -111,7 +119,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       E-commerce REST API Backend
                     </h5>
-                    <img src={reactimg} alt={reactimg} />
+                    <img src={ecommerce} alt={ecommerce} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
@@ -172,7 +180,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       Micro Frontend Music Library App
                     </h5>
-                    <img src={reactimg} alt={reactimg} />
+                    <img src={musicapp} alt={mainapp} />
                     <div className="project--showcaseBtn">
                       <a
                         href="https://github.com/amansharma6664/main-app"
@@ -249,7 +257,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       Daily News – ReactJS News Aggregator App
                     </h5>
-                    <img src={reactimg} alt={reactimg} />
+                    <img src={news} alt={news} />
                     <div className="project--showcaseBtn">
                       <a
                         href={"https://github.com/amansharma6664/Daily-News"}
@@ -308,7 +316,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       Quiz App
                     </h5>
-                    <img src={reactimg} alt={reactimg} />
+                    <img src={quiz} alt={quiz} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
@@ -370,7 +378,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       GameNova-UI
                     </h5>
-                    <img src={reactimg} alt={reactimg} />
+                    <img src={gamenova} alt={gamenova} />
                     <div className="project--showcaseBtn">
                       <a
                         href={"https://github.com/amansharma6664/GameNova-UI"}
