@@ -43,6 +43,408 @@ export default function ProjectPage() {
                               style={{
                                 backgroundColor: "rgb(142 70 186 / 31%)",
                                 border: "1px solid",
+                                marginBottom: "30px",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  NoteNest – MERN Stack Notes Management App
+                                </h5>
+                                <img src={reactimg} alt={reactimg} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href="https://github.com/amansharma6664/NoteNest_Frontend"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="iconBtn"
+                                    aria-labelledby="frontend-code"
+                                  >
+                                    <FaCode
+                                      id="frontend-code"
+                                      className="icon"
+                                      aria-label="Frontend Code"
+                                    />
+                                  </a>
+
+                                  <a
+                                    href="https://github.com/amansharma6664/NoteNest_Backend"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="iconBtn"
+                                    aria-labelledby="backend-code"
+                                  >
+                                    <FaCode
+                                      id="backend-code"
+                                      className="icon"
+                                      aria-label="Backend Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 400,
+                                  }}
+                                >
+                                  NoteNest is a simple and secure MERN stack
+                                  notebook app with user authentication and full
+                                  CRUD functionality for managing personal
+                                  notes. Built with React, Node.js, Express, and
+                                  MongoDB.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 400,
+                                }}
+                              >
+                                HTML, CSS, JavaScript, React, Node JS, MongoDB,
+                                Express JS
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  E-commerce REST API Backend
+                                </h5>
+                                <img src={reactimg} alt={reactimg} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/amansharma6664/eCommerce-backend/tree/main/ecommerce-api"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 400,
+                                  }}
+                                >
+                                  A secure and scalable E-commerce REST API
+                                  built with Node.js, Express, MongoDB, and JWT
+                                  authentication, featuring product management,
+                                  cart system and order processing.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 400,
+                                }}
+                              >
+                                JavaScript, Node JS, MongoDB, Express JS
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Micro Frontend Music Library App
+                                </h5>
+                                <img src={reactimg} alt={reactimg} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href="https://github.com/amansharma6664/main-app"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="iconBtn"
+                                    aria-labelledby="frontend-code"
+                                  >
+                                    <FaCode
+                                      id="frontend-code"
+                                      className="icon"
+                                      aria-label="Frontend Code"
+                                    />
+                                  </a>
+
+                                  <a
+                                    href="https://github.com/amansharma6664/music-library"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="iconBtn"
+                                    aria-labelledby="backend-code"
+                                  >
+                                    <FaCode
+                                      id="backend-code"
+                                      className="icon"
+                                      aria-label="Backend Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 400,
+                                  }}
+                                >
+                                  Main Container App with Music Library Micro
+                                  Frontend – A React-based container app built
+                                  with Webpack that dynamically loads the Music
+                                  Library micro frontend using Module
+                                  Federation. The system supports role-based
+                                  authentication (admin/user), where admins can
+                                  add or delete songs, while all users can
+                                  filter, sort, and group songs using JavaScript
+                                  methods like map, filter, and reduce.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 400,
+                                }}
+                              >
+                                HTML, CSS, JavaScript, React, Webpack, Module
+                                Federation
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Daily News – ReactJS News Aggregator App
+                                </h5>
+                                <img src={reactimg} alt={reactimg} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/amansharma6664/Daily-News"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 400,
+                                  }}
+                                >
+                                  Daily News is a React app that displays top
+                                  headlines by category using NewsAPI. It
+                                  features infinite scrolling, a loading bar,
+                                  and easy navigation for a smooth news browsing
+                                  experience.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 400,
+                                }}
+                              >
+                                HTML, CSS, JavaScript, React JS, NewsAPI
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Quiz App
+                                </h5>
+                                <img src={reactimg} alt={reactimg} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/amansharma6664/working-quiz-app"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 400,
+                                  }}
+                                >
+                                  Implemented a working quiz which calculates
+                                  the score per question. +5 for every correct
+                                  answer, -2 for every incorrect answer scored.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 400,
+                                }}
+                              >
+                                HTML, CSS, JavaScript, React JS
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                                marginBottom: "30px",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  GameNova-UI
+                                </h5>
+                                <img src={reactimg} alt={reactimg} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/amansharma6664/GameNova-UI"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 400,
+                                  }}
+                                >
+                                  About GameNova UI — A modern, interactive
+                                  React-based gaming platform interface with
+                                  vibrant visuals and seamless navigation. Built
+                                  using TailwindCSS and React Router.{" "}
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 400,
+                                }}
+                              >
+                                HTML, CSS, JavaScript, React JS, TailwindCSS
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
                               }}
                             >
                               <div className="projectContent">
@@ -77,10 +479,15 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Built a front-end application using the Unsplash API to retrieve and display 12 images based on user search 
-                      queries. The project included features like loading indicators, error handling, and links to high-resolution versions of 
-                      the images. React hooks, context, and routing were implemented for efficient state management and navigation, 
-                      ensuring a smooth user experience. 
+                                  Built a front-end application using the
+                                  Unsplash API to retrieve and display 12 images
+                                  based on user search queries. The project
+                                  included features like loading indicators,
+                                  error handling, and links to high-resolution
+                                  versions of the images. React hooks, context,
+                                  and routing were implemented for efficient
+                                  state management and navigation, ensuring a
+                                  smooth user experience.
                                 </p>
                               </h6>
                               <div
@@ -108,7 +515,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                User Authentication API 
+                                  User Authentication API
                                 </h5>
                                 <img src={nodeimg} alt={nodeimg} />
                                 <div className="project--showcaseBtn">
@@ -138,10 +545,16 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Developed a secure API using NodeJS and ExpressJS for user sign-up and sign-in functionalities. The API ensured 
-                      data security by hashing passwords with bcrypt and generating 64-character JWT tokens for successful authentication. 
-                      MongoDB was used for efficient data storage, with robust error handling implemented to manage invalid credentials 
-                      and duplicate user entries effectively.
+                                  Developed a secure API using NodeJS and
+                                  ExpressJS for user sign-up and sign-in
+                                  functionalities. The API ensured data security
+                                  by hashing passwords with bcrypt and
+                                  generating 64-character JWT tokens for
+                                  successful authentication. MongoDB was used
+                                  for efficient data storage, with robust error
+                                  handling implemented to manage invalid
+                                  credentials and duplicate user entries
+                                  effectively.
                                 </p>
                               </h6>
                               <div
@@ -169,7 +582,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectPageContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                SQL Database Query Project 
+                                  SQL Database Query Project
                                 </h5>
                                 <img src={sqlimg} alt={sqlimg} />
                                 <div className="project--showcaseBtn">
@@ -199,10 +612,15 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Worked on querying a large relational database using SQL Server to analyze and retrieve customer and sales data. 
-                     Tasks included generating detailed monthly and yearly sales reports, fetching customer-specific transaction details, and 
-                     performing advanced SQL queries. This project showcased proficiency in SQL functions and database restoration 
-                     techniques.
+                                  Worked on querying a large relational database
+                                  using SQL Server to analyze and retrieve
+                                  customer and sales data. Tasks included
+                                  generating detailed monthly and yearly sales
+                                  reports, fetching customer-specific
+                                  transaction details, and performing advanced
+                                  SQL queries. This project showcased
+                                  proficiency in SQL functions and database
+                                  restoration techniques.
                                 </p>
                               </h6>
                               <div
@@ -230,7 +648,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                Personal Portfolio
+                                  Personal Portfolio
                                 </h5>
                                 <img src={portfolio} alt={portfolio} />
                                 <div className="project--showcaseBtn">
@@ -260,8 +678,11 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Welcome to my personal portfolio, where you can discover my work, skills, and accomplishments
-                                  presented in a clear and visually engaging way. Take a look at my expertise and creativity.
+                                  Welcome to my personal portfolio, where you
+                                  can discover my work, skills, and
+                                  accomplishments presented in a clear and
+                                  visually engaging way. Take a look at my
+                                  expertise and creativity.
                                 </p>
                               </h6>
                               <div
@@ -319,9 +740,13 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  The Dual Mode Calendar project is a versatile web application built with HTML, CSS, and JavaScript. It seamlessly 
-                                  toggles between a traditional monthly calendar view and a sleek event scheduler. Users can effortlessly manage 
-                                  appointments and events in a visually appealing and user-friendly interface.
+                                  The Dual Mode Calendar project is a versatile
+                                  web application built with HTML, CSS, and
+                                  JavaScript. It seamlessly toggles between a
+                                  traditional monthly calendar view and a sleek
+                                  event scheduler. Users can effortlessly manage
+                                  appointments and events in a visually
+                                  appealing and user-friendly interface.
                                 </p>
                               </h6>
                               <div
@@ -379,8 +804,11 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  An interactive Age Calculator built with React that calculates a person's age based on their birthdate. 
-                                  It features colorful styling, real-time input validation, and displays the result with an error message.
+                                  An interactive Age Calculator built with React
+                                  that calculates a person's age based on their
+                                  birthdate. It features colorful styling,
+                                  real-time input validation, and displays the
+                                  result with an error message.
                                 </p>
                               </h6>
                               <div
@@ -438,8 +866,12 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Create a sleek, responsive digital clock with HTML, CSS, and JavaScript. Display real-time hours, minutes, and seconds, 
-                                  and update automatically. Customize its style and layout using CSS for a modern, functional timekeeping experience.
+                                  Create a sleek, responsive digital clock with
+                                  HTML, CSS, and JavaScript. Display real-time
+                                  hours, minutes, and seconds, and update
+                                  automatically. Customize its style and layout
+                                  using CSS for a modern, functional timekeeping
+                                  experience.
                                 </p>
                               </h6>
                               <div
@@ -454,7 +886,7 @@ export default function ProjectPage() {
                               </div>
                             </div>
                           </Fade>
-                        </Col>   
+                        </Col>
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
@@ -467,7 +899,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                New Year Countdown
+                                  New Year Countdown
                                 </h5>
                                 <img src={nwyr} alt={nwyr} />
                                 <div className="project--showcaseBtn">
@@ -497,8 +929,10 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  A visually appealing New Year countdown timer built with React. It features a dynamic   
-                                  countdown for days, hours, minutes, and seconds, styled with a gradient background and 
+                                  A visually appealing New Year countdown timer
+                                  built with React. It features a dynamic
+                                  countdown for days, hours, minutes, and
+                                  seconds, styled with a gradient background and
                                   responsive design.
                                 </p>
                               </h6>
@@ -514,7 +948,7 @@ export default function ProjectPage() {
                               </div>
                             </div>
                           </Fade>
-                        </Col>                    
+                        </Col>
                       </Row>
                     </Col>
                   </Row>
