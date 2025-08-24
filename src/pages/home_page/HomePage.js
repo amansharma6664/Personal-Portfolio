@@ -81,7 +81,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="mailto:amankumarsharma01234@gmail.com/"
+                      href="mailto:amankumarsharma01234@gmail.com"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
